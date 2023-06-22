@@ -1,0 +1,27 @@
+.heading_1{
+    font-size: 103px;
+}
+.heading_2{
+    font-size: 52px;
+}
+@media only screen and (max-width: 1112px)  {
+    .grid_column{
+        display: flex;
+        flex-direction: column;
+    }
+    .full_width{
+        width: 100% !important;
+        margin: 10px 0px 50px 0px !important;
+    }
+    .text_center{
+        text-align: center !important;
+    }
+    .w_100{
+        margin-bottom:5px ;
+        width: 100% !important;
+    }
+    .make_flex{
+        display: flex;
+        justify-content: space-between;
+    }
+}

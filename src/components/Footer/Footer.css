@@ -1,0 +1,43 @@
+.input-box {
+    width: 100%;
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-box:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 5px #00aaff;
+  }
+  .font_secondary{
+    font-size: 30px;
+}
+.font_third{
+    font-size: 57px;
+}
+
+.remove_ul{
+    list-style-type: none;
+}
+
+@media  only screen and (max-width: 987px) {
+    .w_100{
+        width: 100% !important;
+    }
+    .justify_center{
+        display: flex !important;
+        /* align-items: center; */
+        /* flex-direction: column !important; */
+        justify-content: center !important;
+    }
+    .w_0{
+        width: 0%;
+    }
+    .vh_60{
+        height: 60vh;
+    }
+
+}

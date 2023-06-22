@@ -1,0 +1,115 @@
+.banner_box {
+    align-content: center;
+    align-items: center;
+    background-image:   url(./service.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 0;
+    width: 100;
+}
+
+.login_container{
+    width: 500px !important;
+    /* border: 2px solid green; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10px;
+    margin: auto;   
+    /* min-height:100vh; */
+    box-shadow: 0px 0px 24px #5C5696;
+    
+    /* background: linear-gradient(90deg, #5D54A4, #7C78B8);	 */
+}
+.login_center{
+
+    /* border:2px solid red; */
+    
+display: flex;
+justify-content: center;
+align-items: center;
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+    /* align-items: center !important; */
+    min-height: 100vh;
+    /* border: 2px solid purple; */
+    
+
+}
+.form-group{
+    width: 100%;
+}
+
+.Sign-container{
+    /* min-width: 400px; */
+    /* border:2px solid orange; */
+    width: 400px;
+    max-height: 400px;
+   
+
+}
+.signIn-content{
+    /* height: 100%; */
+    /* heig */
+    /* min-width: 400px; */
+    /* scroll-behavior: auto; */
+    width: 100%;
+    /* border:2px solid green; */
+    
+}
+
+
+.a_Style{
+    font-weight: 600;
+    color:#892be25d;
+    cursor: pointer;
+    text-decoration: none !important;
+
+}
+.line_height_control {
+    line-height: 35px !important;
+}
+.btn-style{
+width: 100%;
+padding : 2px 6px ;
+background-color: rgba(137, 43, 226, 0.366);
+color: white;
+border: none;
+
+}
+
+
+/* @media (max) {
+    
+} */
+
+@media (max-width: 600px) {
+    .login_container{
+        width: 300px !important;
+        scroll-behavior: auto;
+        /* margin: auto; */
+        /* border: 2px solid yellow; */
+        /* background: linear-gradient(90deg, #C7C5F4, #776BCC); */
+   	
+    }
+  }
+  @media (max-width: 400px) {
+    .login_container{
+        width: 200px !important;
+        scroll-behavior: auto;
+        /* border: 2px solid orange; */
+    }
+  }
+  @media (max-width: 1200px) {
+   .img_remove{
+    display: none;
+   }
+   .w_100{
+    width: 100% !important;
+   }
+  }
+ 
